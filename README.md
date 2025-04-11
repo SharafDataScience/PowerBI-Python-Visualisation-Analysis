@@ -1,10 +1,10 @@
-# 📊 E-Commerce Data Analysis Projects (Brazilian Olist Dataset)
+# E-Commerce Data Analysis Projects (Brazilian Olist Dataset)
 
 This repository contains four different data visualization and analysis designs based on the **Brazilian E-Commerce Public Dataset by Olist**. The goal is to explore market behavior, customer satisfaction, and payment trends using Python and Power BI.
 Author: Abdullah Sharaf
 ---
 
-## 🔗 Dataset Source
+## Dataset Source
 
 All datasets used in these projects can be found at:  
 [https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
@@ -81,12 +81,4 @@ All datasets used in these projects can be found at:
   - Mid: Lookup reviews & order timelines
   - Low: Compare review dependency on volume
 
----
 
-## ⚙️ Setup & Instructions
-
-For Python Projects (Design 2 & 3):
-- Download the datasets from Kaggle
-- Update dataset paths in the script, for example:
-  ```python
-  df = pd.read_csv("path/to/olist_orders_dataset.csv")
